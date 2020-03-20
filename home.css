@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    overflow: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+.container1{
+    width: 1000px;
+    height: 400px;
+    margin-top: 500px;
+    margin-left: 445.5px;
+    margin-right: 645.5px;
+    margin-bottom: 100px;
+    position: relative;
+}
+.header{
+    /* background-color: #FFEB3B; */
+    height: 1000px;
+    margin-top: -260px;
+    transform: skewY(-15deg);
+    background-image: linear-gradient(to right top,#FFEB3B,#FFBA00);
+}
+.header .nav {
+    transform: skewY(15deg);
+}
+.header .nav ul li {
+    margin-top: 20px;
+    margin-right: 10px;
+    float: right;
+}
+.header .nav ul li a{
+    margin-top: 260px;
+    display: inline-block;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.header .nav .right{
+    margin-right: 1300px;
+}
+.header .nav .left{
+    margin-right: 180px;
+    padding-left: 20px;
+}
+.header .title{
+    transform: skewY(15deg);
+}
+.title{
+    position: absolute;
+    top: 60%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+}
+.title h1{
+    font-size: 42px;
+    color: #000;
+    font-weight: bolder;
+}
+.title p{
+    margin-top: 40px;
+    text-align: center;
+    color: grey;
+    word-spacing: 2px;
+    font-size: 18px;
+}
+.main1{
+    margin: auto;
+    width: 500px;
+    box-sizing: border-box;
+    float: left;
+}
+.main1 h2{
+    font-size: 32px;
+    font-weight: normal;
+    color: #66eca9;
+}
+.main1 p{
+    margin-top: 25px;
+    line-height: 40px;
+    font-size: 24px;
+    color: grey;
+}
+.sidebar1{
+    /* float: right; */
+    position: absolute;
+    top: 0;
+    right: 100px;
+    width: 300px;
+}
+.sidebar1 .img1{
+    width: 375px;
+    height: 257px;
+}
+.sidebar1 .img2{
+    width: 350px;
+    height: 175px;
+    margin-top: -100px;
+    margin-left: 100px;
+}
+
+.container2{
+    height: 950px;
+    background-color: #ddf3fb;
+    position: relative;
+}
+.container2 h3{
+    color: #66eca9;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.container2 .box1, .box2{
+    width: 450px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgb(219, 219, 219), -5px -5px 20px rgb(219, 219, 219);
+}
+.container2 .box1{
+    position: absolute;
+    top: 225px;
+    left: 450px;
+}
+.container2 .box2{
+    position: absolute;
+    top: 225px;
+    right: 450px;
+}
+.container2 .box1 img{
+    width: 450px;
+    height: 225px;
+    border-radius: 10px 10px 0 0;
+}
+.container2 .shadowbox1{
+    position: absolute;
+    top: 225px;
+    left: 450px;
+    width: 450px;
+    height: 225px;
+    border-radius: 10px 10px 0 0;
+    background-color: rgb(13, 214, 197);
+    opacity: 0.7;
+    z-index: 2;
+}
+.container2 .shadowbox2{
+    position: absolute;
+    top: 225px;
+    right: 450px;
+    width: 450px;
+    height: 225px;
+    border-radius: 10px 10px 0 0;
+    background-color: rgb(21, 142, 241);
+    opacity: 0.7;
+    z-index: 2;
+}
+.container2 .box2 img{
+    width: 450px;
+    height: 225px;
+    border-radius: 10px 10px 0 0;
+}
+.container2 .box1 p{
+    padding: 30px;
+    font-weight: bold;
+}
+.container2 .box2 p{
+    padding: 30px;
+    font-weight: bold;
+}
+.container2 .box1 ul li{
+    padding: 10px 30px;
+    color: gray;
+}
+.container2 .box2 ul li {
+    padding: 10px 30px;
+    color: gray;
+}
+
+
+.container3{
+    height: 850px;
+    position: relative;
+}
+.container3 h3{
+    color: #66eca9;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: lighter;
+}
+.container3 .box1_1{
+    position: absolute;
+    top: 200px;
+    left: 450px;
+    width: 300px;
+    height: 370px;
+}
+.container3 .box2_1{
+    position: absolute;
+    top: 200px;
+    left: 810px;
+    width: 300px;
+    height: 370px;
+}
+.container3 .box3_1{
+    position: absolute;
+    top: 200px;
+    right: 430px;
+    width: 300px;
+    height: 370px;
+}
+.container3 .box1_1 img{
+    width: 150px;
+    height: 150px;
+    margin: 20px 75px;
+}
+.container3 .box2_1 img{
+    width: 150px;
+    height: 150px;
+    margin: 20px 75px;
+}
+.container3 .box3_1 img{
+    width: 150px;
+    height: 150px;
+    margin: 20px 75px;
+}
+.container3 h4{
+    margin: 20px;
+    font-size: 22px;
+    text-align: center;
+}
+.container3 p{
+    color: grey;
+    font-size: 18px;
+    text-align: center;
+}
+.container3 .box1_1:hover, .box2_1:hover, .box3_1:hover{
+    transform: scale(1.1);
+    transition: 1s all;
+    box-shadow: 5px 5px 20px rgb(219, 219, 219), -5px -5px 20px rgb(219, 219, 219);
+}
+.container3 .btn3 button{
+    padding: 18px;
+    background-color: #FFEB3B;
+    position: absolute;
+    top: 650px;
+    left: 850px;
+    border-radius: 10px;
+    width: 220px;
+    font-size: large;
+}
+
+.container4{
+    height: 525px;
+    background-image: linear-gradient(to right, #FFEB3B 70%,#FFBA00 95%);
+    position: relative;
+}
+.container4 .box1_2{
+    width: 1200px;
+    height: 250px;
+    background-color: rgb(250, 250, 250);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 4px 4px 20px rgb(223, 216, 216), -4px -4px 20px rgb(223, 216, 216);
+}
+.container4 .box1_2 h2{
+    font-size: 28px;
+    color: #66eca9;
+    font-weight: normal;
+    padding: 50px 60px 30px 60px;
+    letter-spacing: 2px;
+}
+.container4 .box1_2 p{
+    font-size: 18px;
+    padding: 0 60px 20px 60px;
+    line-height: 20px;
+    color: grey;
+}
+.container4 .box1_2 button{
+    padding: 20px;
+    background-color: #FFEB3B;
+    position: absolute;
+    top: 100px;
+    right: 180px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.container5{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(community_2.jpg);
+    background-repeat: repeat-x;
+    height: 520px;
+    position: relative;
+    /* background-size: cover;
+    background-position: right; */
+}
+.container5 h2{
+    color: rgb(230, 230, 230);
+    text-align: center;
+    padding: 120px 0 30px 0;
+    font-size: 28px;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+.container5 p{
+    color: rgb(230, 230, 230);
+    /* text-align: center; */
+    padding: 0 240px;
+    line-height: 40px;
+}
+.container5 button{
+    padding: 20px;
+    background-color: #FFEB3B;
+    position: absolute;
+    top: 300px;
+    right: 875px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.footer{
+    background-color: rgb(75, 75, 75);
+    height: 150px;
+}
+.footer p{
+    text-align: center;
+    line-height: 150px;
+    color: #fff;
+}
+/* Micro Clearfix */
+.cf:before,
+.cf:after {
+    content: " "; 
+    display: table; 
+}
+.cf:after {
+    clear: both;
+}
